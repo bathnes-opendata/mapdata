@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "sql_statement",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "organisati": "Bath City Farm", "address": "Bath City Farm, Kelston View, Whiteway, Bath, BA2 1NW", "website": "www.bathcityfarm.org.uk", "email": "info@bathcityfarm.org.uk", "uprn": 10001147469.0, "descriptio": "Bath City Farm is a 37 acre farm open to visitors complete with farm animals, a seasonal cafe and farm shop, play space and nature trails. The farm hosts a range of community events and  coordinates a program of training and volunteering activities", "easting": 372626.0, "northing": 164066.0, "mi_style": null, "mi_prinx": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -2.394667200089347, 51.374983043062144 ] ] } },
+{ "type": "Feature", "properties": { "organisati": "Bath City Farm", "address": "Bath City Farm, Kelston View, Whiteway, Bath, BA2 1NW", "website": "www.bathcityfarm.org.uk", "email": "info@bathcityfarm.org.uk", "uprn": 10001147469.0, "descriptio": "Bath City Farm is a 37 acre farm open to visitors complete with farm animals, a seasonal cafe and farm shop, play space and nature trails. The farm hosts a range of community events and  coordinates a program of training and volunteering activities", "easting": 372626.0, "northing": 164066.0, "mi_style": null, "mi_prinx": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -2.394667200089347, 51.374983043062144 ] ] } }
+]
+}
