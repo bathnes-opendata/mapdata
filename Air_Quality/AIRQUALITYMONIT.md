@@ -19,7 +19,7 @@ Yes
 http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
 ## Attribution
-Contains OS Data &copy; Crown Copyright and Database Right (&lt;year&gt;)
+Contains OS Data &copy; Crown Copyright and Database Right (2019)
 
 ## First Created
 2014-01-31T00:00:00+00:00

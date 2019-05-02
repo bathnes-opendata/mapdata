@@ -1,0 +1,283 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "Historic Data from Fix My Street",
+      "path": "https://github.com/bathnes-opendata/mapdata/blob/master/ReportIt/fms.json",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "reportid",
+            "type": "string",
+            "format": "default",
+            "title": "reportid",
+			"description": "Unique ID"
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "format": "default",
+            "title": "category"
+          },
+          {
+            "name": "created",
+            "type": "datetime",
+            "format": "default",
+            "title": "created",
+            "description": "date and tiem created"
+          },
+          {
+            "name": "confirmed",
+            "type": "datetime",
+            "format": "yyyy/mm/dd hh:mm:ss",
+            "title": "confirmed",
+            "description": "date and time confirmed"
+          },
+          {
+            "name": "acknowledged",
+            "type": "datetime",
+            "format": "yyyy/mm/dd hh:mm:ss",
+            "title": "acknowledged",
+            "description": "date and time acknowledged"
+          },
+          {
+            "name": "fixed",
+            "type": "datetime",
+            "format": "yyyy/mm/dd hh:mm:ss",
+            "title": "fixed",
+            "description": "date and time fixed"
+          },
+          {
+            "name": "closed",
+            "type": "datetime",
+            "format": "yyyy/mm/dd hh:mm:ss",
+            "title": "closed",
+            "description": "date and time closed"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "format": "default",
+            "title": "status",
+            "description": "status of report"
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "format": "default",
+            "title": "latitude",
+            "description": "latitude"
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "format": "default",
+            "title": "longitude",
+            "description": "longitude"
+          },
+          {
+            "name": "query",
+            "type": "string",
+            "format": "default",
+            "title": "Query",
+            "description": "Query"
+          },
+          {
+            "name": "ward",
+            "type": "string",
+            "format": "default",
+            "title": "ward",
+            "description": "ward"
+          },
+          {
+            "name": "easting",
+            "type": "number",
+            "format": "default",
+            "title": "easting",
+            "description": "easting"
+          },
+          {
+            "name": "northing",
+            "type": "number",
+            "format": "default",
+            "title": "northing",
+            "description": "northing"
+          },
+          {
+            "name": "reporturl",
+            "type": "string",
+            "format": "default",
+            "title": "reporturl",
+            "description": "reporturl"
+          },
+          {
+            "name": "reportedas",
+            "type": "string",
+            "format": "default",
+            "title": "reportedas"
+          },
+          {
+            "name": "siteused",
+            "type": "string",
+            "format": "default",
+            "title": "siteused"
+          },
+          {
+            "name": "wkb_geometry",
+            "type": "string",
+            "format": "default",
+            "title": "wkb_geometry"
+          }
+        ]
+      },
+      "title": "Fix My Street Data ",
+      "format": "JSON"
+    },
+    {
+      "name": "Data for last month from fix my street",
+      "path": "https://github.com/bathnes-opendata/mapdata/blob/master/ReportIt/fms_latest.json",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "reportid",
+            "type": "string",
+            "format": "default",
+            "title": "reportid",
+			"description": "Unique ID"
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "format": "default",
+            "title": "category"
+          },
+          {
+            "name": "created",
+            "type": "datetime",
+            "format": "default",
+            "title": "created",
+            "description": "date and tiem created"
+          },
+          {
+            "name": "confirmed",
+            "type": "datetime",
+            "format": "yyyy/mm/dd hh:mm:ss",
+            "title": "confirmed",
+            "description": "date and time confirmed"
+          },
+          {
+            "name": "acknowledged",
+            "type": "datetime",
+            "format": "yyyy/mm/dd hh:mm:ss",
+            "title": "acknowledged",
+            "description": "date and time acknowledged"
+          },
+          {
+            "name": "fixed",
+            "type": "datetime",
+            "format": "yyyy/mm/dd hh:mm:ss",
+            "title": "fixed",
+            "description": "date and time fixed"
+          },
+          {
+            "name": "closed",
+            "type": "datetime",
+            "format": "yyyy/mm/dd hh:mm:ss",
+            "title": "closed",
+            "description": "date and time closed"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "format": "default",
+            "title": "status",
+            "description": "status of report"
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "format": "default",
+            "title": "latitude",
+            "description": "latitude"
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "format": "default",
+            "title": "longitude",
+            "description": "longitude"
+          },
+          {
+            "name": "query",
+            "type": "string",
+            "format": "default",
+            "title": "Query",
+            "description": "Query"
+          },
+          {
+            "name": "ward",
+            "type": "string",
+            "format": "default",
+            "title": "ward",
+            "description": "ward"
+          },
+          {
+            "name": "easting",
+            "type": "number",
+            "format": "default",
+            "title": "easting",
+            "description": "easting"
+          },
+          {
+            "name": "northing",
+            "type": "number",
+            "format": "default",
+            "title": "northing",
+            "description": "northing"
+          },
+          {
+            "name": "reporturl",
+            "type": "string",
+            "format": "default",
+            "title": "reporturl",
+            "description": "reporturl"
+          },
+          {
+            "name": "reportedas",
+            "type": "string",
+            "format": "default",
+            "title": "reportedas"
+          },
+          {
+            "name": "siteused",
+            "type": "string",
+            "format": "default",
+            "title": "siteused"
+          },
+          {
+            "name": "wkb_geometry",
+            "type": "string",
+            "format": "default",
+            "title": "wkb_geometry"
+          }
+        ]
+      },
+  "name": "Report It",
+  "title": "Bath and North East Somerset Council Report It",
+  "description": "North East Somerset Report IT Data from Fix My Street\n\nReport data for issues relating to Highways, Cleansing, and Parks & Grounds. These reports are made by citizens or Bath and North East Somerset Council staff using fix.bathnes.gov.uk or fixmystreet.co.uk. Please note this data set is not representative of all issues dealt with by these service areas as it does not include data from line of business systems.",
+  "homepage": "https://www.bathnes.gov.uk/reportit",
+  "contributors": [
+    {
+      "title": "Bath & NE Somerset Council",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "path": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "title": "Open Government Licence"
+    }
+  ]
+}
